@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assests/css/main.css" type="text/css">
+        <link rel="icon" href="./assests/images/logo.png" type="image/png">
+        <title>Structure Scan | Scan & fix faults</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <img src="./assests/images/logo.png" alt="Structure Scan Logo">
+            </div>
+            <div class="bottons animate__animated animate__fadeInDown">
+                <a href="#sub_sec"><button class="access">Get Early Access</button></a>
+                <a href="#screens"><button class="features">Features</button></a>
+            </div>
+        </div>
+        <div class="hero_section">
+            <div class="hero_text animate__animated animate__flipInX animate__slow">
+                <p class="top_text">Welcome To The <span class="efizi">Future !</span></p>
+                <p class="bottom_text">Structure Scan is <span class="efizi">coming soon.</span></p>
+            </div>
+            <div class="hero_img animate__animated animate__zoomInRight animate__slow">
+                <input type="checkbox" id="zoomCheck">
+                <label for="zoomCheck">
+                <img src="./assests/images/hero.png" alt="">
+                </label>
+            </div>
+        </div>
+        <div class="subscribe_section" id="sub_sec">
+            <div class="sub_info" data-aos="zoom-in">
+                <p class="sub_head">
+                    Identify Faulty Structures And Fix Them.
+                </p>
+                <p class="sub_deets">
+                    We are building an app that scans and checks the structure of buildings/bridges if they 
+                    were properly constructed to avoid collapsing at an unwanted time.
+                </p>
+                <p class="sub_deets">
+                    Would you like to be among the first set of people to use the app?
+                </p>
+                <form action="connect.php" method="POST" id="form">
+                    <input type="email" placeholder="name@email.com" name="email" required>
+                    <input type="submit" value="Get Early Access">
+                </form>
+                <div id="thanks">Thank you for subscribing !</div>
+            </div>
+            <div class="sub_img box bounce-2">
+                <img src="./assests/images/fix.png" alt="fix structure">
+            </div>
+        </div> <!--End of subscribe section-->
+        <div class="screens" id="screens">
+            <p class="screens_head" data-aos="slide-up">
+                So How Can Structure Scan Help You ?
+            </p>
+            <p class="screens_deets" data-aos="fade-down">
+                Here are just a few things our app can do for you :
+            </p>
+            <div class="first_screen_cover odd">
+                <div class="left_side" data-aos="flip-right">
+                    <input type="checkbox" id="zoomheck">
+                    <label for="zoomheck">
+                    <img src="./assests/images/one.png" alt="structure scan screen">
+                    </label>
+                </div>
+                <div class="right_side" data-aos="zoom-in">
+                    <p class="scr_head">
+                        Scan your structures
+                    </p>
+                    <p class="scr_txt">Scan structures like foundation, pillars, e.t.c of your 
+                        buildings or any type of construction to check if it was properly constructed to
+                         avoid it collapsing at unwanted time.
+                    </p>
+                </div>
+            </div>
+            <div class="first_screen_cover">
+                <div class="left_side" data-aos="slide-up">
+                    <p class="scr_head">
+                        Guidelines on how to repair
+                    </p>
+                    <p class="scr_txt">Scan structures like foundation, pillars, e.t.c of your 
+                        buildings or any type of construction to check if it was properly constructed to
+                         avoid it collapsing at unwanted time.
+                    </p>
+                </div>
+                <div class="right_side">
+                    <input type="checkbox" id="zoomeck">
+                    <label for="zoomeck">
+                    <img src="./assests/images/two.png" alt="">
+                    </label>
+                </div>
+            </div>
+            <div class="first_screen_cover odd">
+                <div class="left_side" data-aos="flip-down">
+                    <input type="checkbox" id="zoomck">
+                    <label for="zoomck">
+                    <img src="./assests/images/three.png" alt="structure scan screen">
+                    </label>
+                </div>
+                <div class="right_side" data-aos="flip-right">
+                    <p class="scr_head">
+                        Estimated Cost of Repair
+                    </p>
+                    <p class="scr_txt"> 
+                        Get the estimated cost of repair to complete the project.
+                    </p>
+                </div>
+            </div>
+            <div class="first_screen_cover">
+                <div class="left_side" data-aos="zoom-in">
+                    <p class="scr_head">
+                        Duration of repair
+                    </p>
+                    <p class="scr_txt">
+                        Get estimated duration of repair the deformity in your structure from experiened engineers.
+                    </p>
+                </div>
+                <div class="right_side" data-aos="fade-down">
+                    <input type="checkbox" id="zoomk">
+                    <label for="zoomk">
+                    <img src="./assests/images/four.png" alt="">
+                    </label>
+                </div>
+            </div>
+
+        </div> <!--End of screens-->
+        <div class="last_part">
+            <div class="contact">
+                <div class="cont_img animate__animated animate__pulse animate__infinite	infinite animate__slower 3s">
+                    <img src="./assests/images/customer.png" alt="">
+                </div>
+                <div class="cont_text">
+                    <p>Want to know more about Structure Scan?</p>
+                    <p><span class="mail">Send us an email</span> at hi@structurescan.com</p>
+                    <p class="follow">Follow us on Social Media</p>
+                    <div class="socials">
+                        <a href="#"><img class="fb" src="./assests/images/facebook.png" alt=""></a>
+                        <a href="#"><img class="ln" src="./assests/images/linkedin.png" alt=""></a>
+                        <a href="#"><img src="./assests/images/twitter.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+
+
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            document.getElementById('form').addEventListener('submit', function(evt){
+            document.getElementById('thanks').style.display = 'block';
+            })
+        </script>
+        <script>
+            AOS.init({
+                duration: 1200,
+            });
+        </script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
