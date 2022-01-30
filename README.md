@@ -7,5 +7,5 @@ What's amazing about this app is you can get the following details all in ONE sc
 - Estimated duration of repair process
 - Proper maintenance guide
 
-Live link to the landing page : https://structure-scan.000webhostapp.com/
+Live link to the landing page : https://structurescan.netlify.app/
 
